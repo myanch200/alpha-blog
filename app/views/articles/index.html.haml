@@ -1,0 +1,15 @@
+%h1 Index for Articles
+%table
+	%thead
+		%tr 
+			%th Title
+			%th Description 
+			%th Actions
+	%tbody
+		- @articles.each do |article|
+			%tr 
+				%td #{article.title}
+				%td #{article.description}
+				%td Placeholder
+		
+			
